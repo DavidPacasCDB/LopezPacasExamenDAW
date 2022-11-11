@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Actividad Examen</title>
+	<link rel="stylesheet" type="text/css" href="css/actividad.css">
+	<meta charset="utf-8"></meta>
+	<script type="text/javascript" src="js/actividad.js"></script>
+</head>
+<body>
+	<section>
+		<article>
+			<div  id="banda1" onclick="cambiocolor()"></div>
+			<script type="text/javascript">
+			var colores = new Array("#CFC714","#4A4813","#C20707","#CD730D","#E7E309","#09E71D","#092EE7","#889291","#FFFFFF");
+			var contador = 1;
+			function cambiocolor(){
+				contador = contador+1;
+				var element = document.getElementById("banda1");
+				element.style.backgroundColor = colores[contador];
+
+}
+</script>
+		</article>
+		<article>
+			<div  id="banda2" onclick="cambiocolor2()"></div>
+			<script type="text/javascript">
+				var colores2 = new Array("#CFC714","#4A4813","#C20707","#CD730D","#E7E309","#09E71D","#092EE7","#889291","#FFFFFF");
+			var contado2 = 1;
+			function cambiocolor2(){
+				contador2 = contador2+1;
+				var element2 = document.getElementById("banda2");
+				element2.style.backgroundColor = colores2[contador2];
+
+}
+			</script>
+		</article >
+		<article>
+			<div id="banda3" onclick="cambiocolor3"></div>
+			<script type="text/javascript">
+				var colores3 = new Array("#CFC714","#4A4813","#C20707","#CD730D","#E7E309","#09E71D","#092EE7","#889291","#FFFFFF");
+			var contador3 = 1;
+			function cambiocolor3(){
+				contador3 = contador3+1;
+				var element3 = document.getElementById("banda3");
+				element3.style.backgroundColor = colores3[contador3];
+
+}
+			</script>
+		</article>
+		<article>
+			<div id="banda4"></div>
+		</article>
+
+	</section>
+</body>
+</html>
